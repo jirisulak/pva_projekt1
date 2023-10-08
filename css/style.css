@@ -13,3 +13,39 @@ body{
 .text-primary {
     color: red;
 }
+
+#logo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#navbar {
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+@media only screen and (max-width: 700px) {
+    #navbar ul {
+        margin-top: 1rem;
+    }
+}
