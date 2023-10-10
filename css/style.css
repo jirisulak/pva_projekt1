@@ -21,7 +21,7 @@ body{
 }
 
 .text-primary {
-    color: red;
+    color: white;
 }
 
 #logo {
@@ -31,7 +31,7 @@ body{
 
 #navbar {
     background-color: black;
-    color: red;
+    color: white;
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -39,7 +39,7 @@ body{
 }
 
 #navbar a {
-    color: red;
+    color: white;
     text-decoration: none;
 }
 
