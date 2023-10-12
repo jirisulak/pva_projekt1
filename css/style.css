@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-:root {
-    --primary-color: rgb(255, 229, 36)
-    --secondary-color: rgb(255, 179, 131)
-}
-
-.text-primary {
-    color: var(--primary-color);
-}
-
 
 *{
     margin: 0;
@@ -21,7 +12,7 @@ body{
 }
 
 .text-primary {
-    color: white;
+    color: red;
 }
 
 #logo {
@@ -95,4 +86,60 @@ body{
     border: none;
     border-radius: 10px;
     text-decoration: none;
+}
+
+#o_klubu {
+    background-color: black;
+    color: white;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 10rem;
+    overflow: hidden;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+#o_klubu .items {
+    display: flex;
+    padding: 1rem;
+}
+
+#o_klubu .item {
+    text-align: center;
+    padding: 1rem;
+}
+
+#o_klubu .items .item i {
+    background: red;
+    color: black;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+#o_klubu i {
+    align-items: center;
+
 }
