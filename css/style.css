@@ -138,7 +138,51 @@ body{
 #o_klubu .items .item i {
     background: red;
     color: black;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 50%;
     margin-bottom: 2rem;
+}
+
+.bg-light {
+    background: black;
+    color: red;
+}
+
+.bg-dark {
+    background: black;
+    color: white;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: white;
+}
+
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../img/logo.png') no-repeat center center/cover; 
 }
