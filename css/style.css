@@ -92,10 +92,9 @@ body{
 
 #o_klubu {
     background-color: black;
-    color: black;
+    color: white;
     text-align: center;
     display: flex;
-    background: red url("../img/dron1.jpg") no-repeat center center/cover;
     height: 100vh;
    
     
