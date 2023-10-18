@@ -99,7 +99,7 @@ body{
 .container {
     max-width: 2000px;
     margin: auto;
-    padding: 0 3rem;
+    padding: 0 5rem;
     overflow: hidden;
 }
 
@@ -143,11 +143,6 @@ body{
     margin-bottom: 2rem;
 }
 
-.bg-light {
-    background: black;
-    color: red;
-}
-
 .bg-dark {
     background: black;
     color: white;
@@ -168,11 +163,13 @@ body{
 .list {
     margin: 0.5rem 0;
     list-style: none;
+    
 }
 
 .list li {
     padding: 0.5rem 0;
     border-bottom: white;
+    
 }
 
 #who {
@@ -184,5 +181,11 @@ body{
 }
 
 #who .who-img {
-    background: url('../img/logo.png') no-repeat center center/cover; 
+    background: url('../img/logo1.jpg') no-repeat center center/cover; 
+}
+
+#zdroje {
+    background-color: black;
+    color: white;
+    padding: 3rem;
 }
