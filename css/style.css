@@ -96,14 +96,14 @@ body{
     color: white;
     text-align: center;
     display: flex;
-    height: 100vh;
+    
    
     
 }
 .container {
     max-width: 2000px;
     margin: auto;
-    padding: 0 5rem;
+    padding: 0 rem;
     overflow: hidden;
     
 }
@@ -115,6 +115,7 @@ body{
 .m-heading {
     font-size: 4rem;
     margin-bottom:5%;
+    margin-top: 5%;
     line-height: 1.1;
 }
 
