@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 .text-primary {
@@ -113,7 +114,7 @@ body{
 
 .m-heading {
     font-size: 4rem;
-    margin-bottom: 0.75rem;
+    margin-bottom:5%;
     line-height: 1.1;
 }
 
@@ -182,20 +183,50 @@ body{
     
 }
 
-#who {
+#nas_tym {
     display: flex;
+    
 }
 
-#who div {
+#nas_tym .nas_tym-text{
+    background-color: black;
+    margin-right:5%;
+    margin-left: 20%;
+    border-width: 3px;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 8%;
+}
+
+#nas_tym div {
     flex: 1;
 }
 
-#who .who-img {
+#nas_tym .nas_tym-img {
     background: url('../img/logo1.jpg') no-repeat center center/cover; 
+    margin-left: 10%;
+    
+
 }
 
 #zdroje {
     background-color: black;
     color: white;
-    padding: 3rem;
+    
+}
+
+.hr_1{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.hr_2{
+    margin-bottom: 0%;
+    margin-top: 5%;
+}
+
+.kontakt_text{
+    background-color: black;
+    color: white;
+
 }
