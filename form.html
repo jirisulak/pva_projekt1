@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrační formulář</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 10px auto;
+            background-color: grey;
+            padding: 1rem;
+            border: 1px red solid;
+            box-shadow: 10px 15px 7px 0px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input,
+        select,
+        textarea,
+        fieldset {
+            padding: 5px;
+            margin: 8px 0;
+            box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.5);
+        }
+
+        fieldset {
+            background-color: #bbb;
+            padding: 10px;
+        }
+
+        input[type="checkbox"]{
+            margin-right: 10px;
+            border: none;
+            box-shadow: none;
+        }
+
+        input[type="radio"]{
+            margin-right: 10px;
+            border: none;
+            box-shadow: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registrační formulář</h1>
+        <form>
+            <div><label for="name">Jméno</label></div>
+            <div><input type="text" name="name" id="name" placeholder="Zadej své jméno"></div>
+            <div><label for="surname">Příjmení</label></div>
+            <div><input type="text" name="name" id="surname" placeholder="Zadej své příjmení"></div>
+            <div>
+                <label for="cars">Vyber auto:</label>
+                <select id="cars" name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="message" rows="10" cols="30">
+Zadejte text
+                    </textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label>
+            </div>
+            <div>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </div>
+            <div><input type="submit" vylue="Odeslat"></div>
+        </form>
+    </div>
+</body>
+
+</html>
