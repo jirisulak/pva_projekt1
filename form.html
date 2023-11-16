@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrační formulář</title>
+    <title>Rezervace kurtů</title>
     <style>
+
+        body{
+            background-color: grey;
+        }
         .container {
             max-width: 600px;
             margin: 10px auto;
-            background-color: grey;
+            background-color: white;
             padding: 1rem;
-            border: 1px red solid;
-            box-shadow: 10px 15px 7px 0px rgba(0, 0, 0, 0.5);
+            border: 2px black solid;
+            box-shadow: 10px 15px 7px 0px rgba(0, 0, 0, 0.8);
             border-radius: 10px;
 
         }
@@ -51,19 +55,28 @@
 
 <body>
     <div class="container">
-        <h1>Registrační formulář</h1>
+        <h1>Rezervace kurtů</h1>
         <form>
             <div><label for="name">Jméno</label></div>
             <div><input type="text" name="name" id="name" placeholder="Zadej své jméno"></div>
             <div><label for="surname">Příjmení</label></div>
             <div><input type="text" name="name" id="surname" placeholder="Zadej své příjmení"></div>
             <div>
-                <label for="cars">Vyber auto:</label>
-                <select id="cars" name="cars">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="fiat">Fiat</option>
-                    <option value="audi">Audi</option>
+                <label for="cas">Vyberte čas</label>
+                <select id="cas" name="cas">
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                    <option value="19:00">19:00</option>
+                    <option value="20:00">20:00</option>
+                    <option value="21:00">21:00</option>
                 </select>
             </div>
             <div>
@@ -73,12 +86,12 @@ Zadejte text
             </div>
 
             <div>
-                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                <label for="vehicle1"> I have a bike</label><br>
-                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                <label for="vehicle2"> I have a car</label><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                <label for="vehicle3"> I have a boat</label>
+                <input type="checkbox" id="vybaveni1" name="vybaveni1" value="Raketa">
+                <label for="vybaveni1"> Mám vlastní raketu</label><br>
+                <input type="checkbox" id="vybaveni2" name="vybaveni2" value="Míče">
+                <label for="vybaveni2"> Mám vlastní míče</label><br>
+                <input type="checkbox" id="vybaveni3" name="vybaveni3" value="Obuv">
+                <label for="vybaveni3"> Mám vlastní obuv</label>
             </div>
             <div>
                 <input type="radio" id="html" name="fav_language" value="HTML">
