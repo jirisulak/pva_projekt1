@@ -8,17 +8,17 @@
     <style>
 
         body{
-            background-color: grey;
+            background-color: white
         }
         .container {
             max-width: 600px;
             margin: 10px auto;
-            background-color: white;
+            background-color: black;
             padding: 1rem;
-            border: 2px black solid;
-            box-shadow: 10px 15px 7px 0px rgba(0, 0, 0, 0.8);
+            border: 5px red solid;
+            box-shadow: 10px 15px 7px 0px rgba(0, 0, 0, 0.9);
             border-radius: 10px;
-
+            color: white;
         }
 
         h1 {
@@ -31,11 +31,11 @@
         fieldset {
             padding: 5px;
             margin: 8px 0;
-            box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 3px 5px 3px rgba(252, 42, 42, 0.5);
         }
 
         fieldset {
-            background-color: #bbb;
+            background-color: #d71f15;
             padding: 10px;
         }
 
@@ -50,10 +50,55 @@
             border: none;
             box-shadow: none;
         }
+
+        table,
+        tr,
+        th {
+            border: 1px solid red
+        }
+
+
+        table{
+            width: 50%;
+            text-align: center;
+            color: white;
+            background-color: black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
     </style>
 </head>
 
 <body>
+
+    <div class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4" id="nadpis-1">Ceny</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Vekovní kurty</th>
+                    <th colspan="2">Hala</th>
+                </tr>
+                <tr id="nadpis-3">
+                    <th>1 hodina</th>
+                    <th>1,5 hodiny</th>
+                    <th>2 hodiny</th>
+                    <th>3 hodiny</th>
+                </tr>
+                <tr>
+                    <th>200 Kč</th>
+                    <th>300 Kč</th>
+                    <th>400 Kč</th>
+                    <th>600 Kč</th>
+                    
+                </tr>
+
+            </thead>
+        </table>
+    </div>
     <div class="container">
         <h1>Rezervace kurtů</h1>
         <form>
@@ -94,12 +139,12 @@ Zadejte text
                 <label for="vybaveni3"> Mám vlastní obuv</label>
             </div>
             <div>
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+                <input type="radio" id="zacatecnik" name="fav_language" value="zacatecnik">
+                <label for="zacatecnik">Začátečník</label><br>
+                <input type="radio" id="pokrocily" name="fav_language" value="pokrocily">
+                <label for="pokrocily">Pokročilý</label><br>
+                <input type="radio" id="profi" name="fav_language" value="profi">
+                <label for="profi">Profi</label>
             </div>
             <div><input type="submit" vylue="Odeslat"></div>
         </form>
