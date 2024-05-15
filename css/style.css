@@ -63,7 +63,12 @@ h3 {
     background: red url("../img/uvodní.jpg") no-repeat center center/cover;
     height: 100vh;
     color: white;
+    
+    
+
 }
+
+
 
 #showcase .showcase-content {
     display: flex;
@@ -98,8 +103,8 @@ h3 {
 }
 
 #o_klubu {
-    background-color: white;
-    color: red;
+    background-color: black;
+    color: white;
     display: flex;
     
    
@@ -155,7 +160,7 @@ h3 {
 }
 
 #o_klubu .items .item i {
-    background: black;
+    background: white;
     color: red;
     padding: 1rem;
     border-radius: 50%;
@@ -205,9 +210,9 @@ h3 {
 }
 
 #nas_tym .nas_tym-text{
-    background-color: grey;
+    background-color: white;
     margin-right:2%;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 5%;
     margin-bottom: 5%;
     border-width: 7px;
@@ -223,6 +228,7 @@ h3 {
 #nas_tym .nas_tym-img {
     background: url('../img/logo1.jpg') no-repeat center center/cover; 
     margin-left: 5%;
+    
 }
 
 #kontakt {
@@ -231,7 +237,7 @@ h3 {
 }
 
 #kontakt .kontakt-text{
-    background-color: grey;
+    background-color: white;
     color: black;
     text-align: left;
     margin-right:10%;
