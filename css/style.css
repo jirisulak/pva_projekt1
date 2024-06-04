@@ -31,11 +31,13 @@ h3 {
     background-color: black;
     color: red;
     display: flex;
-    justify-content: space-between;
     padding: 1.50rem;
     flex-wrap: wrap;
     position: fixed;
     width: 100%;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
 }
 
 #navbar a {
@@ -314,3 +316,4 @@ h3 {
     }
 
 }
+
